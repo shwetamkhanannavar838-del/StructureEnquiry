@@ -10,4 +10,4 @@ RUN pip install pytest
 COPY . /app
 
 # Run the script
-CMD ["python", "student.py"]
+ENTERYPOINT ["python", "student.py"]
